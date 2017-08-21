@@ -2,27 +2,27 @@
  * @Author: Zane Xiong 
  * @Date: 2017-07-10 16:11:03 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-07-13 21:44:28
+ * @Last Modified time: 2017-08-21 23:20:25
  */
 
 
 $(function() {
 
     //header部分城市切换
-    var $oInput = $("#header .header-left input");
-    $oInput.mouseover(function() {
+    var $oclick = $("#header .header-left a");
+    $oclick.mouseover(function() {
         $(this).css({
             "background": "#d60d03",
             "color": "#fff"
         })
     });
-    $oInput.mouseout(function() {
+    $oclick.mouseout(function() {
         $(this).css({
             "background": "#fff",
             "color": "#d60d03"
         })
     });
-    $oInput.click(function() {
+    $oclick.click(function() {
         $(this).css({
             "background": "#fff",
             "color": "#d60d03"
@@ -30,7 +30,7 @@ $(function() {
             "background": "#fff",
             "color": "#999999"
         })
-    });
+    })
 
 
 

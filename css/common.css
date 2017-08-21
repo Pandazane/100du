@@ -63,6 +63,7 @@ textarea {
 body {
     font-size: 12px;
     font-family: "微软雅黑";
+    background: #fff;
 }
 
 
@@ -242,9 +243,9 @@ body {
 }
 
 .nav-right {
-    width: 347px;
-    padding-left: 22px;
     float: left;
+    width: 348px;
+    margin-left: 22px;
 }
 
 .nav-right ul li {

@@ -101,7 +101,7 @@ body {
     width: 910px;
     height: 20px;
     line-height: 20px;
-    padding: 5px 20px 5px 30px;
+    padding: 5px 30px 5px 20px;
     background-color: #f9f9f9;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -113,16 +113,11 @@ body {
     font-size: 12px;
 }
 
-#header .header-left span {
-    padding-right: 16px;
-}
-
 #header .header-left a {
     display: inline-block;
     width: 38px;
     height: 18px;
     line-height: 18px;
-    margin-right: 5px;
     color: #999999;
     background-color: #fff;
     text-decoration: none;
@@ -165,75 +160,76 @@ body {
     margin-top: 9px;
 }
 
-.nav-left {
-    width: 347px;
+#nav ul {
+    width: 340px;
+    height: 66px;
+}
+
+#nav ul li {
+    float: left;
+    width: 66px;
+    height: 66px;
+}
+
+#nav ul li a {
+    display: block;
+    width: 50px;
+    padding-top: 50px;
+    padding-right: 16px;
+    text-align: center;
+    background: url('../images/nav_bg.png') no-repeat;
+    color: #333;
+    text-decoration: none;
+}
+
+#nav ul li a.club {
+    width: 60px;
+    padding-right: 6;
+    text-align: left;
+}
+
+#nav .nav-left {
     float: left;
     padding-left: 20px;
 }
 
-.nav-left ul li {
-    display: inline-block;
-}
-
-.nav-left ul li p {
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-.nav-logo a {
-    width: 45px;
-    height: 48px;
-    padding-right: 20px;
-    display: block;
-}
-
-.nav-left .food {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .food {
     background-position: -8px 0px;
 }
 
-.nav-left .food:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .food:hover {
     background-position: -8px -69px;
 }
 
-.nav-left .hotel {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .hotel {
     background-position: -74px 0px;
 }
 
-.nav-left .hotel:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .hotel:hover {
     background-position: -74px -69px;
 }
 
-.nav-left .shop {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .shop {
     background-position: -141px 0px;
 }
 
-.nav-left .shop:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .shop:hover {
     background-position: -141px -69px;
 }
 
-.nav-left .culture {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .culture {
     background-position: -206px 0px;
 }
 
-.nav-left .culture:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .culture:hover {
     background-position: -206px -69px;
 }
 
-.nav-left .relax {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .relax {
     background-position: -272px 0px;
 }
 
-.nav-left .relax:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .relax:hover {
     background-position: -272px -69px;
 }
 
@@ -244,71 +240,48 @@ body {
 }
 
 .nav-right {
-    float: left;
-    width: 348px;
-    margin-left: 22px;
+    float: right;
+    padding-left: 17px;
 }
 
-.nav-right ul li {
-    display: inline-block;
-}
-
-.nav-right ul li p {
-    padding-top: 5px;
-}
-
-.nav-right .zone {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .zone {
     background-position: -338px 0;
 }
 
-.nav-right .zone:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .zone:hover {
     background-position: -338px -69px;
 }
 
 .nav-right .knower {
-    background: url('../images/nav_bg.png')left center no-repeat;
     background-position: -405px 0;
 }
 
-.nav-right .knower:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .knower:hover {
     background-position: -405px -69px;
 }
 
-.nav-right .free {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .free {
     background-position: -470px 0;
 }
 
-.nav-right .free:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .free:hover {
     background-position: -470px -69px;
 }
 
-.nav-right .talk {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .talk {
     background-position: -537px 0;
 }
 
-.nav-right .talk:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .talk:hover {
     background-position: -537px -69px;
 }
 
-.nav-right .club {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .club {
     background-position: -602px 0;
-    /*修正位置*/
-    margin-left: 7px;
 }
 
-.nav-right .club:hover {
-    background: url('../images/nav_bg.png')left center no-repeat;
+#nav .club:hover {
     background-position: -602px -69px;
-    /*修正位置*/
-    margin-left: 7px;
 }
 
 

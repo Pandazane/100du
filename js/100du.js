@@ -2,7 +2,7 @@
  * @Author: Zane Xiong 
  * @Date: 2017-07-10 16:11:03 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-21 23:39:31
+ * @Last Modified time: 2017-08-24 20:41:20
  */
 
 
@@ -124,7 +124,5 @@ $(function() {
         }
         oUl.stop().animate({ 'top': iHeight * iNow }, 2200, 'elasticOut');
     }
-
-
 
 })

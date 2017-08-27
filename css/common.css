@@ -658,7 +658,7 @@ body {
     padding: 15px 15px 7px 10px;
 }
 
-.partone-right>.select-list>ul>li {
+.partone-right>.select-list>li {
     position: relative;
     width: 318px;
     height: 108px;
@@ -666,7 +666,7 @@ body {
     background: url('../images/hot_list_li_bg.gif') no-repeat;
 }
 
-.partone-right>.select-list>ul>li>.item-img {
+.partone-right>.select-list>li>.item-img {
     position: absolute;
     left: 0;
     top: 10px;
@@ -675,21 +675,21 @@ body {
     border: 1px solid #f0f0f0;
 }
 
-.partone-right>.select-list>ul>li>.item-img>.food_1 {
+.partone-right>.select-list>li>.item-img>.food_1 {
     display: block;
     width: 104px;
     height: 84px;
     background: url('../images/content/hot_list_pic1.gif') no-repeat;
 }
 
-.partone-right>.select-list>ul>li>.item-img>.food_2 {
+.partone-right>.select-list>li>.item-img>.food_2 {
     display: block;
     width: 104px;
     height: 84px;
-    background: url('../images/content/hot_list_pic2.gif.gif') no-repeat;
+    background: url('../images/content/hot_list_pic2.gif') no-repeat;
 }
 
-.partone-right>.select-list>ul>li>.item-img>.save {
+.partone-right>.select-list>li>.item-img>.save {
     position: absolute;
     left: 75px;
     top: 52px;
@@ -698,7 +698,7 @@ body {
     background: url('../images/save.png') no-repeat;
 }
 
-.partone-right>.select-list>ul>li>.item-text {
+.partone-right>.select-list>li>.item-text {
     position: absolute;
     left: 126px;
     top: 15px;
@@ -706,7 +706,7 @@ body {
     height: 77px;
 }
 
-.partone-right>.select-list>ul>li>.item-text>h3 {
+.partone-right>.select-list>li>.item-text>h3 {
     font-size: 12px;
     line-height: 12px;
     font-weight: normal;
@@ -714,11 +714,11 @@ body {
     margin-bottom: 10px;
 }
 
-.partone-right>.select-list>ul>li>.item-text>h3>a {
+.partone-right>.select-list>li>.item-text>h3>a {
     color: #bb0d0d;
 }
 
-.partone-right>.select-list>ul>li>.item-text>p {
+.partone-right>.select-list>li>.item-text>p {
     font-size: 12px;
     color: #6e6e6e;
 }
@@ -1032,12 +1032,12 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
-.part_three_left>.select_list>ul>li {
+.part_three_left>.select_list>li {
     width: 318px;
     height: 294px;
 }
 
-.part_three_left>.select_list>ul>li>img {
+.part_three_left>.select_list>li>img {
     width: 318px;
     height: 293px;
 }

@@ -2,7 +2,7 @@
  * @Author: Zane Xiong 
  * @Date: 2017-07-10 16:11:03 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-08-26 23:28:29
+ * @Last Modified time: 2017-08-27 15:03:11
  */
 
 
@@ -149,5 +149,8 @@ $(function() {
         }
     })();
 
+    //每日活动 日历特效
+    (function() {
 
+    })();
 })

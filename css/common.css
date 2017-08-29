@@ -762,7 +762,6 @@ body {
     padding-left: 23px;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .part_two_left>h2 {
@@ -849,6 +848,7 @@ body {
 }
 
 .part_two_left>.calendar {
+    position: relative;
     width: 301px;
     height: 284px;
     margin-top: 19px;
@@ -896,13 +896,71 @@ body {
     left: 0;
 }
 
-.part_two_left>.calendar>.part_two_right {
-    width: 332px;
-    height: 498px;
-    padding-left: 16px;
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
+.calendar .today_info {
+    position: absolute;
+    left: 221px;
+    top: 124px;
+    width: 290px;
+    height: 86px;
+    padding: 10px 15px;
+    border: 1px solid #c0c0c0;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.calendar .today_info img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #dbdbdb;
+    float: left;
+}
+
+.calendar .today_info .text {
+    width: 200px;
+    float: right;
+}
+
+.calendar .today_info .text h4 {
+    font-size: 12px;
+    color: #333;
+    padding-bottom: 6px;
+}
+
+.calendar .today_info .text h4 strong {
+    color: #ccc;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.calendar .today_info .text p {
+    line-height: 18px;
+    color: #999;
+}
+
+.calendar .today_info .btn {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.calendar .today_info .btn img {
+    border: 1px solid #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.calendar .today_info span {
+    width: 8px;
+    height: 14px;
     overflow: hidden;
+    position: absolute;
+    top: 45px;
+    left: -8px;
+    background: url('../images/adorn.gif') no-repeat 0 -48px;
 }
 
 .part_two_right {
